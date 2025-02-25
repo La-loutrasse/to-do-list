@@ -3,10 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>To do list</title>
 </head>
 <body>
+  <header>
+    <nav>
+      <a href="index.html"><img src="img/" alt="logo" width="120px"></a>
+
+      <a href="#">
+        <div class="header">
+          <h1>To Do List</h1>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="col-auto">
+          <input type="checkbox" id="switch-mode" class="switch" onclick="switchToDarkMode()">
+          <label for="checkbox" class="label"></label>
+        </div>
+      </a>
+    </nav>
+  </header>
   <script src="js/script.js"></script>
 </body>
 </html>
